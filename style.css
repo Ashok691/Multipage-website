@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+SA+Beginner&family=Edu+TAS+Beginner&family=Lobster&family=Nunito+Sans:ital,wght@1,300&family=Playfair+Display:ital@1&family=Splash&family=The+Nautigal:wght@700&display=swap');
+body{
+    margin:0;
+    background-color:rgb(6, 1, 11);
+}
+.container{
+    margin:0;
+    height: 100vh;
+    display: flex;
+    justify-content: auto auto;
+    /* justify-items: center; */
+}
+.text-me{
+    font-size: 50px;
+    position: relative;
+    left:250px;
+    top: -25px;
+    /* z-index: 1; */
+}
+.text-you{
+    font-size:50px;
+    position: relative;
+    left:680px;
+    top: -25px;
+}
+.home-page-img{
+    width:60%;
+    height:100vh;
+}
+.text-shallWe{
+    font-weight: lighter;
+    font-style: normal;
+    color:rgb(255, 162, 0);
+    font-size: 70px;
+    position: absolute;
+    top:45%;
+}
+.text-go{
+    font-weight: lighter;
+    font-style: normal;
+    color:rgb(255, 13, 0);
+    font-size: 100px;
+    position: absolute;
+    top:50%;
+    left:1350px;
+}
+
+.house-main-container{
+    display: flex;
+    justify-content: space-between;
+}
+.house-container{
+    position: absolute;
+    left:350px;
+    display: flex;
+    justify-content: right;
+    justify-items: right;
+}
+.house-img{
+    overflow: hidden;
+    width:1165px;
+    height: 100vh;
+}
+.house-text-me{
+    font-size: 30px;;
+    color:rgb(255, 162, 0);
+    position: relative;
+    top:250px;
+
+}
+.house-text-you{
+    font-size: 30px;;
+    color:rgb(255, 162, 0);
+    position: relative;
+    top:300px;
+}
+.house-a{
+    font-size: 30px;;
+    color:rgb(255, 13, 0);
+    position: relative;
+    top:300px;
+}
+
+/* Just entered into the house */
+.just-entered-me{
+    font-size: 30px;;
+    color:rgb(255, 162, 0);
+    position: relative;
+    top:150px;
+
+}
+.just-entered-you{
+    font-size: 30px;;
+    color:rgb(255, 162, 0);
+    position: relative;
+    top:200px;
+}
+.just-entered-img{
+    width:75vw;
+    height:100vh;
+    float:right;
+}
+.up_stairs_img{
+    float: right;
+    width:75vw;
+    height:100vh;
+}
+.up_stairs_me{
+    font-size: 30px;;
+    color:rgb(255, 162, 0);
+    position: relative;
+    top:150px;
+}
+.all-img{
+    /* padding:0px; */
+    float:right;
+    /* margin:0px; */
+    width:75vw;
+    height:100vh;
+    
+}
+.all-text{
+    font-size: 30px;;
+    color:rgb(255, 162, 0);
+    position: relative;
+    top:150px;
+}
+.room1-lights-text{
+    position: relative;
+    top:250px;
+}
+.ghost-container{
+    height: 100vh;
+    display: flex;
+    justify-content: auto;
+}
+.ghost-img{
+    background-image: url(https://i0.wp.com/www.gimbot.com/wp-content/uploads/2019/11/Dark.jpg?resize=768%2C450&ssl=1);
+    width:100%;
+    height:100vh;
+    background-size:cover;
+    /* z-index: -1; */
+}
+.ghost-text{
+    font-weight: lighter;
+    font-size: 35px;
+    text-transform: uppercase;
+    width: 100%;
+    position:absolute;
+    top:25%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.ghost-text-game{
+    text-transform: uppercase;
+    font-size: 75px;
+    /* width: 100%; */
+    /* position:absolute; */
+    /* top:70%; */
+    /* transform: translateY(0%); */
+    text-align: center;
+    color: rgb(233, 17, 17);
+    font-family: Georgia, "Times New Roman", Times, serif ;
+}
+
+/* Hearing something */
+.hearing-something-behind{
+    font-size: 35px;
+    position: relative;
+    left: 25%;
+    top:150px;
+    color:blue
+}
+
+.hearing-something-text{
+    font-size: 50px;
+    color:rgb(255, 162, 0);
+    position: relative;
+    left: 35%;
+    top:150px;
+}
+.hearing-something-text-nextPage{
+    font-size: 50px;
+    color:rgb(255, 13, 0);
+    position: relative;
+    left: 40%;
+    top:350px;
+}
+.turn-around-img{
+    margin:0px;
+    width: 100vw;
+    height: 100vh;
+}
+.turn-around-text{
+    font-size: 30px;
+    color:rgb(255, 13, 0);
+    position: relative;
+    left: 20px;
+    top: 300px;
+}
+.run-me{
+    font-size: 50px;
+    color:rgb(255, 162, 0);
+    position: relative;
+    left: 25%;
+    top:150px;
+}
+.run-you{
+    font-size: 50px;
+    color:rgb(255, 13, 0);
+    position: relative;
+    left: 32%;
+    top:350px;
+}
+.check-previous-previos{
+    font-size: 30px;;
+    color:rgb(255, 13, 0);
+    position: relative;
+    left:25px;
+    top:300px;
+}
+.check-previous-look-back{
+    font-size: 30px;;
+    color:rgb(255, 13, 0);
+    position: relative;
+    /* left:10px; */
+    top:300px;
+}
+
+.following-img{
+    margin:0px;
+    width: 100vw;
+    height: 100vh;
+}
+.run2-room{
+    font-size: 50px;
+    color:rgb(255, 162, 0);
+    position: relative;
+    left: 25%;
+    top:150px;
+}
+#anyaVideo {
+    position: fixed;
+    right: 0;
+    /* left: 0; */
+    width: 100%;
+    height: 100%;
+  }
+  .ghosts-inner-feelings{
+    /* background-image: url(https://c.tenor.com/7UJgmOhNUxAAAAAC/dj-tillu-siddhu-jonnalagadda.gif); */
+    /* background-image: "https://c.tenor.com/7UJgmOhNUxAAAAAC/dj-tillu-siddhu-jonnalagadda.gif"; */
+    /* width:100%;
+    height:100%; */
+    /* background-size:cover; */
+    color: rgba(25, 40, 175, 0.879);
+    position: relative;
+    top:350px;
+  }
+.thanks{
+    width: 100vw;
+    height:100%;
+    color:rgb(255, 162, 0);
+    font-size:35px;
+    /* justify-content: center; */
+    position: relative;
+    /* left: 1px; */
+    top: 250px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    padding: 1em 0 1em 0;
+}
+.thanks-visit{
+    /* color:rgb(255, 162, 0); */
+    position: relative;
+    /* top: 600px; */
+}
